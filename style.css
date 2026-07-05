@@ -267,3 +267,35 @@ box-shadow:0 0 15px rgba(255,165,0,.3);
 color:#ff9800;
 margin-bottom:10px;
 }
+.floating-whatsapp,
+.floating-call{
+    position:fixed;
+    right:20px;
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:28px;
+    color:#fff;
+    text-decoration:none;
+    box-shadow:0 5px 15px rgba(0,0,0,.4);
+    z-index:999;
+    transition:0.3s;
+}
+
+.floating-whatsapp{
+    background:#25D366;
+    bottom:90px;
+}
+
+.floating-call{
+    background:#ff6b00;
+    bottom:20px;
+}
+
+.floating-whatsapp:hover,
+.floating-call:hover{
+    transform:scale(1.1);
+}
