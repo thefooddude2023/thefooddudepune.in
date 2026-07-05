@@ -298,3 +298,34 @@ text-align:center;
 color:#ff6f00;
 margin-bottom:30px;
 }
+/* Floating Buttons Fix */
+.call-btn{
+    display:block;
+    width:80%;
+    margin:20px auto;
+    text-align:center;
+}
+
+.floating-call{
+    position:fixed;
+    right:20px;
+    bottom:110px;
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    z-index:999;
+}
+
+.floating-whatsapp{
+    position:fixed;
+    right:20px;
+    bottom:25px;
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    z-index:999;
+}
+
+.hero{
+    padding-top:170px;
+}
