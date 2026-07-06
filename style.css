@@ -167,3 +167,33 @@ font-size:16px;
 }
 
 }
+html,body{
+    width:100%;
+    overflow-x:hidden;
+}
+
+header,
+section,
+footer,
+.hero,
+.menu-grid,
+.gallery{
+    width:100%;
+}
+
+img{
+    max-width:100%;
+    height:auto;
+    display:block;
+}
+
+.menu-grid,
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:20px;
+}
+
+.card{
+    width:100%;
+}
