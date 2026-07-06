@@ -211,3 +211,36 @@ img{
     background:#fff;
     padding:10px;
 }
+#online-reviews{
+padding:70px 8%;
+text-align:center;
+background:#181818;
+}
+
+#online-reviews h2{
+font-size:38px;
+color:#FFD700;
+margin-bottom:20px;
+}
+
+#online-reviews p{
+font-size:18px;
+color:#ddd;
+margin-bottom:30px;
+}
+
+#online-reviews .btn{
+display:inline-block;
+padding:15px 35px;
+background:#ff6b00;
+color:#fff;
+text-decoration:none;
+border-radius:40px;
+font-weight:700;
+transition:.3s;
+}
+
+#online-reviews .btn:hover{
+background:#ff9800;
+transform:scale(1.05);
+}
