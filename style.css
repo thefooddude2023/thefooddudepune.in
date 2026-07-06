@@ -170,3 +170,69 @@ nav a:hover{
 .gallery-images img:hover{
     transform:scale(1.05);
 }
+/* =========================
+   WHY CHOOSE US
+========================= */
+
+.why-us{
+    padding:60px 20px;
+    text-align:center;
+    background:#fff;
+}
+
+.why-us h2{
+    color:#ff6b00;
+    margin-bottom:30px;
+}
+
+.features{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+.feature-box{
+    width:250px;
+    padding:20px;
+    background:#f7f7f7;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.feature-box:hover{
+    transform:translateY(-8px);
+}
+
+.feature-box h3{
+    color:#ff6b00;
+    margin-bottom:10px;
+}
+
+/* CUSTOMER REVIEWS */
+
+.reviews{
+    padding:60px 20px;
+    text-align:center;
+    background:#f8f8f8;
+}
+
+.reviews h2{
+    color:#ff6b00;
+    margin-bottom:30px;
+}
+
+.review-box{
+    max-width:600px;
+    margin:20px auto;
+    padding:20px;
+    background:#fff;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.review-box h4{
+    color:#ff6b00;
+    margin-top:10px;
+}
