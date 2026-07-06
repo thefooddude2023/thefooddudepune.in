@@ -197,3 +197,17 @@ img{
 .card{
     width:100%;
 }
+#payment{
+    text-align:center;
+    padding:40px 20px;
+}
+
+.qr{
+    display:block;
+    width:300px;
+    max-width:90%;
+    margin:20px auto;
+    border-radius:20px;
+    background:#fff;
+    padding:10px;
+}
