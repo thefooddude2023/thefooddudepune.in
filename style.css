@@ -265,3 +265,55 @@ margin:15px 0;
 font-size:45px;
 letter-spacing:5px;
 }
+/* ===================== FREE SHAKE OFFER ===================== */
+
+.free-shake-offer{
+    padding:40px 20px;
+    background:#111;
+}
+
+.offer-box{
+    max-width:900px;
+    margin:auto;
+    background:linear-gradient(135deg,#ff9800,#ff5722);
+    color:#fff;
+    text-align:center;
+    padding:35px 25px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.35);
+}
+
+.offer-tag{
+    display:inline-block;
+    background:#fff;
+    color:#ff5722;
+    font-weight:bold;
+    padding:8px 18px;
+    border-radius:50px;
+    margin-bottom:20px;
+    font-size:14px;
+}
+
+.offer-box h2{
+    font-size:34px;
+    margin-bottom:15px;
+}
+
+.offer-text{
+    font-size:22px;
+    margin-bottom:20px;
+}
+
+.shake-list{
+    background:rgba(255,255,255,0.2);
+    padding:15px;
+    border-radius:12px;
+    font-size:20px;
+    font-weight:bold;
+    margin-bottom:15px;
+}
+
+.offer-note{
+    font-size:15px;
+    opacity:0.95;
+    }
